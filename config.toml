@@ -40,7 +40,7 @@ show_feed = false
 # See https://www.getzola.org/documentation/content/linking/#internal-links
 links = [
   {url = "@/blog/_index.md", name = "Blog"},
-  {url = "@/about/index.md", name = "About"}
+  {url = "@/about/index.md", name = "About"},
   {url = "https://github.com/mpross512/RossJrBlog", name = "Repo"},
 ]
 
