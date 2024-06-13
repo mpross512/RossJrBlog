@@ -26,10 +26,12 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
-emoji_favicon = "👨🏼‍💻"
+emoji_favicon = "👨‍💻"
 source_url = "https://github.com/mpross512/RossJrBlog"
 issues_url = "https://github.com/mpross512/RossJrBlog/issues"
-
+primary_color = "#5eb1bf"
+# Same as primary_color, but with 20% opacity
+primary_color_alpha = "rgba(94, 177, 191, 0.2)"
 
 [extra.nav]
 # Whether to show Atom/RSS feed button in the nav
@@ -40,18 +42,15 @@ show_feed = false
 # See https://www.getzola.org/documentation/content/linking/#internal-links
 links = [
   {url = "@/blog/_index.md", name = "Blog"},
-  {url = "@/about/index.md", name = "About"},
-  {url = "https://github.com/mpross512/RossJrBlog", name = "Repo"},
+  {url = "@/projects/_index.md", name = "Projects"},
+  {url = "https://github.com/mpross512", name = "GitHub"},
 ]
 
 [extra.footer]
-# URL to the website without the https:// part,
-# used for Johnvertisement leaderboard.
-johnvert_ref = "rossjr.dev"
 # Whether to show "© Title, YEAR"
 show_copyright = true
 # Whether to show marketing via "john"
-show_johnvert = true
+show_johnvert = false
 # Whether to show "Powered by Zola and Duckquill"
 show_powered_by = true
 # Whether to show link to website source
