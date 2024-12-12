@@ -6,8 +6,8 @@ title = "RossJr.dev"
 compile_sass = true
 
 minify_html = true
-generate_feed = true
-feed_filename = "atom.xml"
+generate_feeds = true
+feed_filenames = ["rss.xml", "atom.xml"]
 author = "Michael Ross"
 
 taxonomies = [
@@ -30,6 +30,7 @@ emoji_favicon = "👨‍💻"
 source_url = "https://github.com/mpross512/RossJrBlog"
 issues_url = "https://github.com/mpross512/RossJrBlog/issues"
 primary_color = "#5eb1bf"
+date_format = "MM/dd/YYYY"
 # Same as primary_color, but with 20% opacity
 primary_color_alpha = "rgba(94, 177, 191, 0.2)"
 
