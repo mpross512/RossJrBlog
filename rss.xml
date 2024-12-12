@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>RossJr.dev</title>
+      <link>https://rossjr.dev</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://rossjr.dev/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 12 May 2024 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>My first post</title>
+          <pubDate>Sun, 12 May 2024 00:00:00 +0000</pubDate>
+          <author>Michael Ross</author>
+          <link>https://rossjr.dev/blog/my-first-post/</link>
+          <guid>https://rossjr.dev/blog/my-first-post/</guid>
+          <description xml:base="https://rossjr.dev/blog/my-first-post/">&lt;p&gt;Hello! This is my first blog post. Stay tuned in the future for more blog posts from me about music, homelabbing, and anything else that I might decide is interesting!&lt;&#x2F;p&gt;
+&lt;p&gt;See you around!&lt;br &#x2F;&gt;
+Michael&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
